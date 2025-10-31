@@ -80,10 +80,10 @@ You’ll run each server independently on different terminals:
 
 | App | Type | Command |
 |------|------|---------|
-| Client | Backend | `cd client-app/backend && npm run dev` |
-| Client | Frontend | `cd client-app/frontend && npm dev` |
-| Admin | Backend | `cd admin-app/backend && npm run dev` |
-| Admin | Frontend | `cd admin-app/frontend && npm dev` |
+| Client | Backend | `cd client/backend && npm run dev` |
+| Client | Frontend | `cd client/frontend && npm dev` |
+| Admin | Backend | `cd admin/backend && npm run dev` |
+| Admin | Frontend | `cd admin/frontend && npm dev` |
 
 ---
 
