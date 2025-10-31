@@ -64,7 +64,7 @@ router.use(sanitizeInput);
  */
 
 /* =============================
-    ✅ AUTH ROUTES
+     AUTH ROUTES
    ============================= */
 
 /**
@@ -133,7 +133,7 @@ router.post('/auth/logout', protect, authController.logout);
 
 
 /* =============================
-    ✅ SAVINGS ROUTES
+     SAVINGS ROUTES
    ============================= */
 
 /**
@@ -206,7 +206,7 @@ router.get('/savings/transactions', protect, verifyDevice, savingsController.get
 
 
 /* =============================
-    ✅ HEALTH CHECK
+     HEALTH CHECK
    ============================= */
 
 /**
